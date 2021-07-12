@@ -1,0 +1,153 @@
+body {
+  font-family: "Maven Pro", sans-serif;
+}
+body img {
+  max-width: 100%;
+}
+body img.divider {
+  width: 100%;
+}
+body nav {
+  text-align: center;
+  background: #313131;
+  padding: 25px 0;
+}
+body h2 {
+  font-weight: bold;
+}
+body a.cta {
+  padding: 10px 15px;
+  font-weight: bolder;
+  border: none;
+  text-transform: uppercase;
+  background-color: #559787;
+}
+body section {
+  width: 100%;
+  margin: 0 auto;
+}
+body section#loanbook {
+  color: white;
+  background: #313131;
+}
+body section#loanbook img {
+  margin-bottom: 25px;
+}
+body section#loanbook h4 {
+  font-weight: bold;
+  color: #2ae2a4;
+}
+body section#benefits h5 {
+  font-weight: 700;
+  text-align: center;
+}
+body section#welcome-bonus {
+  color: white;
+  background: #313131;
+}
+body section#welcome-bonus h2 {
+  color: #2ae2a4;
+}
+body section#welcome-bonus P {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+body section#welcome-bonus P span.highlight,
+body section#welcome-bonus P span a {
+  color: #2ae2a4;
+}
+body section#welcome-bonus P.capital {
+  font-size: 1em;
+  border-color: white;
+  margin: 25px auto;
+  margin-bottom: 50px;
+}
+body section#welcome-bonus P.capital a {
+  color: #2ae2a4;
+}
+body section#welcome-bonus .cta {
+  width: auto;
+  margin: 25px auto;
+}
+body section#welcome-bonus input {
+  padding: 20px;
+}
+body section#welcome-bonus button[type=submit] {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+body section#welcome-bonus span.login-alternative {
+  font-size: 1.125em;
+  display: block;
+  margin-top: 25px;
+}
+body section#welcome-bonus span.login-alternative a {
+  color: #2ae2a4;
+}
+body section#welcome-bonus a.scroll-down {
+  color: white;
+}
+body section#our-accounts .points {
+  font-weight: 700;
+}
+body section#our-accounts .points .tick {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+body section#simple-and-transparent h3 {
+  font-weight: 700;
+}
+body section#simple-and-transparent .how-it-works {
+  padding-top: 3rem;
+}
+body section#simple-and-transparent .how-it-works img {
+  margin-bottom: 15px;
+}
+body section#simple-and-transparent .how-it-works h5 {
+  font-weight: bold;
+}
+body section .bg-grey {
+  background: #e6e6e6;
+}
+@media screen and (min-width: 992px) {
+  body section .container {
+    max-width: 75% !important;
+  }
+}
+body .tick-stats {
+  margin-bottom: 3em;
+}
+body .tick-stats .stat {
+  margin: 10px 0;
+}
+body .tick-stats .stat span {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+body .stat {
+  margin: 20px 0;
+}
+body .stat .stat-caption {
+  font-size: 1.25em;
+}
+body .capital {
+  border: 2px solid black;
+  border-radius: 15px;
+  font-weight: 700;
+  padding: 10px;
+  margin-top: 3em;
+}
+body .capital a {
+  color: #559787;
+  text-decoration: none;
+}
+body .capital a:hover {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,199 @@
+
+$green : #559787;
+$lightgreen : rgb(42, 226, 164);
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+
+    img {
+        max-width: 100%;
+
+        &.divider {
+            width: 100%;
+        }
+    }
+    
+    nav {
+        text-align: center;
+        background: #313131;
+        padding: 25px 0;
+    }
+
+    h2 {
+        font-weight: bold;
+    }
+
+    a.cta {
+        padding: 10px 15px;
+        font-weight: bolder;
+        border: none;
+        text-transform: uppercase;
+        background-color: $green;
+    }
+
+    section {
+        width: 100%;
+        // max-width: 400px;
+        margin: 0 auto;
+
+        &#loanbook {
+            color: white;
+            background: #313131;
+
+            img {
+                margin-bottom: 25px;
+            }
+
+            h4 {
+                font-weight: bold;
+                color: $lightgreen;
+            }
+        }
+
+        &#benefits {
+            h5 {
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+
+        &#welcome-bonus {
+            color: white;
+            background: #313131;
+
+            h2 {
+                color: $lightgreen;
+            }
+
+            P {
+                font-size: 1.5em;
+                margin-bottom: 0;
+
+                span.highlight,
+                span a {
+                    color: $lightgreen;
+                }
+
+                &.capital {
+                    font-size: 1em;
+                    border-color: white;
+                    margin: 25px auto;
+                    margin-bottom: 50px;
+
+                    a {
+                        color: $lightgreen;
+                    }
+                }
+            }
+
+            .cta {
+                width: auto;
+                margin: 25px auto;
+            }
+
+            input {
+                padding: 20px;
+            }
+
+            button[type="submit"] {
+                border: 1px solid white;
+                background: transparent;
+                color: white;
+                padding: 20px;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+
+            span.login-alternative {
+                font-size: 1.125em;
+                display: block;
+                margin-top: 25px;
+
+                a {
+                    color: $lightgreen;
+                }
+            }
+
+            a.scroll-down {
+                color: white;
+            }
+        }
+
+        &#our-accounts {
+            .points {
+                font-weight: 700;
+
+                .tick {
+                    display: flex;
+                    align-items: center;
+                    align-content: center;
+                }
+            }
+        }
+
+        &#simple-and-transparent {
+            h3 {
+                font-weight: 700;
+            }
+
+            .how-it-works {
+                padding-top: 3rem;
+
+                img {
+                    margin-bottom: 15px;
+                }
+                h5 {
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .bg-grey {
+            background: #e6e6e6;
+        }
+
+        .container {
+            @media screen and (min-width: 992px) {
+                max-width: 75% !important;
+            }
+        }
+    }
+
+    .tick-stats {
+        margin-bottom: 3em;
+
+        .stat {
+            margin: 10px 0;
+
+            span {
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .stat {
+        margin: 20px 0;
+
+        .stat-caption {
+            font-size: 1.25em;
+        }
+    }
+
+    .capital {
+        border: 2px solid black;
+        border-radius: 15px;
+        font-weight: 700;
+        padding: 10px;
+        margin-top: 3em;
+
+        a {
+            color: $green;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
